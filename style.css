@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(226, 225, 225);
+}
+
+
+
+/*Header Section Styling*/
+
+.headerSection{
+    z-index: 10;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  position: fixed;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  background-color: white;
+}
+.header img{
+    width: 150px;
+    background-color: white;
+}
+.header a{
+    background-color: white;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+
+.header a:hover, .icons i:hover {
+    color: red;
+}
+.icons i{
+    margin: 6px 10px;
+   color: #333;
+   cursor: pointer;
+}
+.icons{
+    background-color: white;
+}
+
+
+/* Hero Section Style */
+
+.heroSection{
+width: 100%; 
+background-color: whitesmoke;
+}
+.hero{
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.hero img{ 
+    width: 90%;
+    display: flex;
+    margin: auto;  
+}
+
+/*Sustainability Section*/
+
+.sustainabilitySection{
+    width: 100%;
+ margin-bottom: 7rem;
+ background-color: whitesmoke;
+
+}
+.sustainability h2{
+    text-align: center;
+    font-size: 32px;
+line-height: 40px;
+    margin: 50px;
+    font-weight: 700;
+}
+
+.sustainabilityBox{
+    width: 75%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.box{
+    width: 555px;
+    background-color: #fff;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.box img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box h3{
+    font-size: 24px;
+    line-height: 32px;
+}
+.box p{
+    font-size: 18px;
+        line-height: 26px;
+        font-weight: 500;
+}
+
+.box h3, .box p {
+    margin-top: 30px;
+    padding: 0px 25px;
+    background-color: #fff;
+}
+
+
+/*Fearuted Section Style*/
+.featuredSection{
+    width: 100%;
+ background-color: rgb(226, 225, 225);;
+    padding-bottom: 5rem;
+
+}
+.featuredSection h2{
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.featuredBox{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.fBox{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    
+}
+.fBox img{
+    width: 100%;
+}
+
+.fBox h2,.fBox h3,.fBox p{
+ padding: 20px 30px;
+ background-color: #fff;
+}
+.fBox p{
+    font-weight: 500;
+}
+
+/*Job Section*/
+.jobsSection{
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.jobs{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.jobsLeft{
+width: 600px;
+background-color: #fff;
+height: 500px;
+z-index: 1;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+border-radius: 20px;
+}
+
+.jobsLeft h2{ 
+ margin: 40px 30px;
+ background-color: white;
+}
+.jobsLeft p{
+    margin: 20px 30px;
+    background-color: white;
+}
+.jobsLeft button{
+   margin-top: 200px;
+margin-left: 40px;
+padding: 10px 90px;
+border-radius: 20px;
+border: solid 2px black;
+background-color: #fff;
+font-weight: 600;
+font-size: 17px;
+cursor: pointer;
+}
+.jobsRight{
+   margin-top: 70px;
+    width: 570px; 
+    margin-left: -70px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.jobsRight img{
+    width: 100%;
+    
+}
+
+/*A Purpose-Driven History Section*/
+
+.purposeSection{
+    width: 100%;
+    background-color: rgb(226, 225, 225);
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+}
+.purpose{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+   
+   
+}
+
+.purposeLeft{
+    width: 600px;
+    border-radius: 20px;
+    margin-right: -70px;
+    margin-top: 70px;
+}
+.purposeLeft img{
+    width: 100%;
+}
+.purposeRight{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+   border-radius: 20px;
+   z-index: 1;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.purposeRight h2,.purposeRight p{
+    margin-top: 20px;
+    padding: 20px 30px;
+    background-color: white;
+}
+.purposeRight button{
+    margin-top: 50px;
+    margin-left: 70px;
+    padding: 10px 90px;
+    border-radius: 20px;
+    border: solid 2px black;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+/*Explore Our Brands Section*/
+
+.brands{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(226, 225, 225);  
+    margin-bottom: 3rem; 
+}
+.brands h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 30px;
+}
+.brandRow{
+    width: 60%;
+   align-items: center;
+   display: flex;
+   margin: auto;
+   justify-content: space-around;
+   padding: 20px;
+   background-color: rgb(226, 225, 225);
+}
+.brandRow img{
+    width: 230px;
+    height: 230px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: transform .2s;
+}
+.brandRow img:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+
+.brands button{
+   width: 300px;
+   height: 40px;
+   border-radius: 20px;
+margin-top: 20px;
+font-weight: 600;
+cursor: pointer;
+font-size: 16px;
+
+}
+.brands button:hover{
+    background-color: #c5c4c4;
+}
+
+/*Footer Section */
+.footerSection{
+    padding-top: 3rem;
+    width: 100%;
+   background-color: black;
+   padding-bottom: 7rem;
+
+}
+.footer{
+    width: 70%;
+   
+    margin: auto;
+}
+.footerTop{
+    justify-content: space-between;
+    background-color: black;
+   display: flex;
+   padding: 50px;
+}
+.footerTop button{
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.footerTop button i{
+    background-color: black;
+    color: white;
+}
+.footerTop img{
+    background-color: black;
+}
+
+/*Footer mid Section*/
+.footerMid{
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.footerMidLeft{
+    width: 60%;
+    display: flex;
+ justify-content: space-between;
+ background-color: black;
+    padding: 10px;
+    padding-top: 20px;
+}
+.footerAbout{
+    background-color: black;
+}
+.footerAbout a{
+  display: flex;
+    text-decoration: none;
+   background-color: black;
+   color: white;
+   font-weight: 500;
+}
+.footerAbout p{
+   margin-bottom: 20px;
+   display: flex;
+ 
+}
+.footerAbout h4{
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+.footerHelp{
+    background-color: black;
+}
+.footerHelp a{
+ text-decoration: none;
+ display: flex;
+ background-color: black;
+   color: white;
+   font-weight: 500;
+
+}
+.footerHelp h4{
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+.footerPolicy{
+    background-color: black;
+}
+.footerPolicy a{
+    margin-top: 5px;
+text-decoration: none;
+display: flex;
+background-color: black;
+   color: white;
+   font-weight: 500;
+}
+
+.socialMedia{
+    margin-top: 20px;
+    margin-right: 40px;
+ background-color: black;
+}
+.footerMidRight{
+    background-color: black ;
+}
+.socialMedia i{
+    margin-top: 20px;
+  margin-left: 20px;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+/*Copy Write text*/
+.footerCopy {
+    text-align: end;
+   
+   
+}
+.footerCopy p{
+    padding-top: 2rem;
+font-size: 14px;
+font-weight: 600;
+background-color: black;
+color: white;
+}
